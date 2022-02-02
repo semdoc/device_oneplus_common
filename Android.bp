@@ -1,2 +1,10 @@
-soong_namespace {
+hidl_package_root {
+    name: "vendor.oneplus",
+    path: "device/oneplus/common/interfaces",
 }
+
+hidl_package_root {
+    name: "vendor.goodix.hardware",
+    path: "device/oneplus//common/interfaces/goodix",
+}
+
